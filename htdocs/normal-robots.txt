@@ -1,0 +1,13 @@
+Sitemap: http://www.europeana.eu/portal/europeana-sitemap-index-hashed.xml
+Sitemap: http://www.europeana.eu/portal/europeana-sitemap-index-hashed.xml?images=true
+Sitemap: http://www.europeana.eu/portal/europeana-sitemap-static.xml
+
+User-agent: *
+Disallow: /portal/action/
+Disallow: /portal/redirect.html
+Disallow: /portal/bob.html
+Disallow: /api/
+
+#2013-06-14 jaclu temp line until offending file is gone
+Disallow: /portal/test-changes.html
+
