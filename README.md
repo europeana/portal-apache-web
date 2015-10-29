@@ -1,4 +1,4 @@
-# Europeana portal Apache web configuration
+# Europeana web & API Apache config
 
 For latest version of how to setup an Apache module at Anynines see
 https://www.assembla.com/spaces/europeana/wiki/Anynines_Apache_environ
