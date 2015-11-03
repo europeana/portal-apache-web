@@ -8,7 +8,7 @@ This is just a short summary written 2014-01-30
 ## .bp-config/httpd/extra
 
 In this dir you store your Apache configs. The build pack defaults to the Apache config found in
-https://github.com/cloudfoundry/php-buildpack/tree/master/defaults/config/httpd/2.4.x/extra
+https://github.com/cloudfoundry/php-buildpack/tree/v3.2.2/defaults/config/httpd/2.4.x/extra
 
 For example, to override httpd-default.conf you would create a file .bp-config/httpd/extra/httpd-default.conf
 
