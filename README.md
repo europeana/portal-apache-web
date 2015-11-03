@@ -8,7 +8,7 @@ https://www.assembla.com/spaces/europeana/wiki/Anynines_Apache_environ.
 
 In this dir you store your Apache configs. The buildpack defaults to the Apache
 config found in
-https://github.com/cloudfoundry/php-buildpack/tree/master/defaults/config/httpd/2.4.x/extra
+https://github.com/cloudfoundry/php-buildpack/tree/v3.2.2/defaults/config/httpd/2.4.x/extra
 
 For example, to override httpd-default.conf you would create a file
 .bp-config/httpd/extra/httpd-default.conf
@@ -28,6 +28,8 @@ PORTAL_HOST=p.blue.portal.europeana.eu
 API_HOST=a.blue.portal.europeana.eu
 BOTTER_HOST=b.blue.portal.europeana.eu
 ```
+
+PHP buildpack configuration documentation: https://docs.cloudfoundry.org/buildpacks/php/gsg-php-config.html
 
 ## htdocs
 
