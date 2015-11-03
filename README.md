@@ -15,6 +15,8 @@ For example, to override httpd-default.conf you would create a file .bp-config/h
 If you want to include an additional file, perhaps in .bp-config/httpd/extra/httpd-default.conf, include it with
 `Include conf/extra/europeana.conf` and store it localy in .bp-config/httpd/extra
 
+PHP buildpack configuration documentation: https://docs.cloudfoundry.org/buildpacks/php/gsg-php-config.html
+
 ## htdocs
 
 This is your webroot, files in this location will be served by this Apache.
