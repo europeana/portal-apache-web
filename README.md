@@ -45,3 +45,8 @@ it must be specified when deploying:
 ```
 cf push APP_NAME -f manifest.yml
 ```
+
+## Allow/disallow robots
+
+To disallow robots to crawl the hosted properties, set the environment
+variable `DISALLOW_ROBOTS=1`.
