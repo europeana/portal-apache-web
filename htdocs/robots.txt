@@ -6,3 +6,5 @@ Disallow: /portal/redirect.html
 Disallow: /portal/bob.html
 Disallow: /api/
 Allow: /api/v2/thumbnail-by-url.json
+Disallow: /portal/search
+Disallow: /portal/collections/*?*
