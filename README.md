@@ -20,15 +20,15 @@ conf/extra/europeana.conf` and store it in .bp-config/httpd/extra
 ### httpd-default.conf
 
 This is a host-specific config file for Apache. It depends on the existence of
-the environment variables `PORTAL_HOST`, `API_HOST`, `BOTTER_HOST` and
-`STYLEGUIDE_HOST`. These are the hostnames of the portal, API, botter, and
-styleguide, e.g.
+the environment variables `PORTAL_HOST`, `API_HOST`, `STYLEGUIDE_HOST`,
+and `EXHIBITIONS_HOST`. These are the hostnames of the portal, API,
+exhibitions, and styleguide, e.g.
 
 ```
-PORTAL_HOST=p.blue.portal.europeana.eu
-API_HOST=a.blue.portal.europeana.eu
-BOTTER_HOST=b.blue.portal.europeana.eu
+PORTAL_HOST=portal.europeana.eu
+API_HOST=api.europeana.eu
 STYLEGUIDE_HOST=styleguide.europeana.eu
+EXHIBITIONS_HOST=exhibitions.europeana.eu
 ```
 
 PHP buildpack configuration documentation: https://docs.cloudfoundry.org/buildpacks/php/gsg-php-config.html
