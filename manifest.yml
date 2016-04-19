@@ -1,7 +1,0 @@
----
-applications:
-- memory: 128M
-  instances: 3
-  buildpack: https://github.com/cloudfoundry/php-buildpack.git#v3.2.2
-  env:
-    STACK: lucid64
