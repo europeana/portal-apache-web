@@ -30,3 +30,25 @@ cf push APP_NAME -f manifest.yml
 
 To disallow robots to crawl the hosted properties, set the environment
 variable `DISALLOW_ROBOTS=1`.
+
+## Virtual hosts
+
+Use environment variables to set the hostnames for each virtual host supported
+by this Apache:
+
+* `WWW_HOST`: www.europeana.eu
+* `ART_HOST`: art.europeana.eu
+* `ART_HISTORY_HOST`: art-history.europeana.eu
+* `DATA_HOST`: data.europana.eu
+* `FASHION_HOST`: fashion.europeana.eu
+* `MUSIC_HOST`: music.europeana.eu
+* `TEST_HOST`: test.europeana.eu
+
+## www.europeana.eu reverse proxy
+
+The www.europeana.eu virtual host reverse proxies a number of URL path patterns
+to other hosts, determined by the environment variables:
+
+* `API_HOST`: Europeana REST API
+* `EXHIBITIONS_HOST`: Europeana Virtual Exhibitions
+* `PORTAL_HOST`: Europeana Portal / Collections
