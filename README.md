@@ -37,12 +37,17 @@ Use environment variables to set the hostnames for each virtual host supported
 by this Apache:
 
 * `WWW_HOST`: www.europeana.eu
+* `ANNOTATIONS_HOST`: annotations.europeana.eu
 * `ART_HOST`: art.europeana.eu
 * `ART_HISTORY_HOST`: art-history.europeana.eu
 * `DATA_HOST`: data.europana.eu
 * `FASHION_HOST`: fashion.europeana.eu
 * `MUSIC_HOST`: music.europeana.eu
 * `TEST_HOST`: test.europeana.eu
+
+The above are the expected production values for these hosts, which still need
+to be set in environment variables, but you may wish to set them to other values
+in test / staging environments.
 
 ## www.europeana.eu reverse proxy
 
