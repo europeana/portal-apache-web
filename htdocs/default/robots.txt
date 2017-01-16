@@ -5,3 +5,5 @@ Disallow: /api/
 Allow: /api/v2/thumbnail-by-url.json
 Disallow: /portal/search
 Disallow: /portal/collections/*?*
+Disallow: /portal/*/search
+Disallow: /portal/*/collections/*?*
