@@ -41,6 +41,7 @@ by this Apache:
 * `ART_HOST`: art.europeana.eu
 * `ART_HISTORY_HOST`: art-history.europeana.eu
 * `DATA_HOST`: data.europana.eu
+* `EXHIBITIONS_HOST`: exhibitions.europeana.eu
 * `ENTITIES_HOST`: entity.europeana.eu
 * `FASHION_HOST`: fashion.europeana.eu
 * `MUSIC_HOST`: music.europeana.eu
