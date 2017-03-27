@@ -44,6 +44,7 @@ by this Apache:
 * `ENTITIES_HOST`: entity.europeana.eu
 * `FASHION_HOST`: fashion.europeana.eu
 * `MUSIC_HOST`: music.europeana.eu
+* `OLD_EXHIBITIONS_HOST`: exhibitions.europeana.eu
 * `TEST_HOST`: test.europeana.eu
 
 The above are the expected production values for these hosts, which still need
