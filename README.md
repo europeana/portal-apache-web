@@ -45,6 +45,7 @@ by this Apache:
 * `ENTITIES_HOST`: entity.europeana.eu
 * `FASHION_HOST`: fashion.europeana.eu
 * `MUSIC_HOST`: music.europeana.eu
+* `WORLD_WAR_I_HOST`: world-war-i.europeana.eu
 * `OLD_EXHIBITIONS_HOST`: exhibitions.europeana.eu
 * `STATISTICS_HOST`: statistics.europeana.eu
 * `TEST_HOST`: test.europeana.eu
