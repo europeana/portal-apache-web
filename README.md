@@ -38,6 +38,7 @@ by this Apache:
 
 * `WWW_HOST`: www.europeana.eu
 * `1914_1918_HOST`: www.europeana1914-1918.eu
+* `1914_1918_EMBED_HOST`: embed.europeana1914-1918.eu
 * `ANNOTATIONS_HOST`: annotations.europeana.eu
 * `ART_HOST`: art.europeana.eu
 * `ART_HISTORY_HOST`: art-history.europeana.eu
