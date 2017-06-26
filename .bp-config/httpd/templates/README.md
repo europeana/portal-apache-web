@@ -11,4 +11,5 @@ and deployment instructions.
 
 ## Templates
 
-1. [portal-alt-vhost.conf](portal-alt-vhost.conf): Alternate portal host template
+1. [portal-alt-vhost.conf](portal-alt-vhost.conf): alternate portal host template
+2. [redirect-host-to-url.conf](redirect-host-to-url.conf): redirect all requests to one URL 
