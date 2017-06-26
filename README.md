@@ -40,16 +40,9 @@ by this Apache:
 * `1914_1918_HOST`: www.europeana1914-1918.eu
 * `1914_1918_EMBED_HOST`: embed.europeana1914-1918.eu
 * `ANNOTATIONS_HOST`: annotations.europeana.eu
-* `ART_HOST`: art.europeana.eu
-* `ART_HISTORY_HOST`: art-history.europeana.eu
 * `DATA_HOST`: data.europana.eu
 * `ENTITIES_HOST`: entity.europeana.eu
-* `FASHION_HOST`: fashion.europeana.eu
-* `MUSIC_HOST`: music.europeana.eu
-* `WORLD_WAR_I_HOST`: world-war-i.europeana.eu
 * `OLD_EXHIBITIONS_HOST`: exhibitions.europeana.eu
-* `STATISTICS_HOST`: statistics.europeana.eu
-* `TEST_HOST`: test.europeana.eu
 
 The above are the expected production values for these hosts, which still need
 to be set in environment variables, but you may wish to set them to other values
