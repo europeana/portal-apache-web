@@ -1,4 +1,4 @@
-Sitemap: http://www.europeana.eu/portal/europeana-sitemap-index-hashed.xml
+Sitemap: https://www.europeana.eu/portal/europeana-sitemap-index-hashed.xml
 
 User-agent: *
 Disallow: /api/
