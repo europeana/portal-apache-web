@@ -9,10 +9,10 @@
   <InputEncoding>UTF-8</InputEncoding>
   <Url type="text/html" template="https://www.europeana.eu/portal/search?q={searchTerms}"/>
   <Url type="application/rss+xml" template="https://www.europeana.eu/api/v2/opensearch.rss?searchTerms={searchTerms}&amp;startIndex={startIndex?}&amp;count={count?}"/>
-  <Image height="100" width="310" type="image/png">https://europeana-styleguide-production.s3.amazonaws.com/v0.3.8/images/europeana-logo-default.png</Image>
-  <Image height="16" width="16" type="image/png">https://europeana-styleguide-production.s3.amazonaws.com/v0.3.8/images/favicons/favicon-16x16.png</Image>
-  <Image height="48" width="48" type="image/x-icon">https://europeana-styleguide-production.s3.amazonaws.com/v0.3.8/images/favicons/favicon.ico?ver=alpha</Image>
-  <Image height="60" width="60" type="image/png">https://europeana-styleguide-production.s3.amazonaws.com/v0.3.8/images/favicons/apple-touch-icon-60x60.png?ver=alpha</Image>
+  <Image height="100" width="310" type="image/png">https://style.europeana.eu/images/europeana-logo-default.png</Image>
+  <Image height="16" width="16" type="image/png">https://style.europeana.eu/images/favicons/favicon-16x16.png</Image>
+  <Image height="48" width="48" type="image/x-icon">https://style.europeana.eu/images/favicons/favicon.ico</Image>
+  <Image height="60" width="60" type="image/png">https://style.europeana.eu/images/favicons/apple-touch-icon-60x60.png</Image>
   <Query role="example" searchTerms="Rembrandt"/>
   <Developer>Europeana Development Team</Developer>
   <Contact>api@europeana.eu</Contact>
