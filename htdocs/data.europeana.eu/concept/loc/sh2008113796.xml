@@ -1,0 +1,20 @@
+<rdf:RDF
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#" > 
+  <rdf:Description rdf:about="http://data.europeana.eu/concept/loc/sh2008113796">
+    <skos:prefLabel xml:lang="it">Guerra mondiale 1914-1918 -- Approvvigionamento [e] Forniture militari</skos:prefLabel>
+    <skos:notation>2749</skos:notation>
+    <skos:prefLabel xml:lang="nl">Wereldoorlog, 1914-1918 --  Apparatuur en benodigdheden</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">World War, 1914-1918 -- Equipment and supplies</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://data.europeana.eu/concept/loc"/>
+    <dcterms:title xml:lang="en">World War, 1914-1918 -- Equipment and supplies</dcterms:title>
+    <skos:prefLabel xml:lang="de">Erster Weltkrieg, 1914-1918 -- Equipment und Versorgung</skos:prefLabel>
+    <skos:prefLabel xml:lang="sr">Prvi svetski rat, 1914-1918 -- oprema i snabdevanje</skos:prefLabel>
+    <skos:exactMatch rdf:resource="http://id.loc.gov/authorities/subjects/sh2008113796"/>
+    <skos:prefLabel xml:lang="da">1. Verdenskrig, 1914-1918 -- Udstyr og materiel</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Guerre mondiale, 1914-1918 --  Équipements et approvisionnement</skos:prefLabel>
+  </rdf:Description>
+</rdf:RDF>

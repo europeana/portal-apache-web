@@ -1,0 +1,20 @@
+<rdf:RDF
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#" > 
+  <rdf:Description rdf:about="http://data.europeana.eu/concept/loc/sh2009008261">
+    <skos:prefLabel xml:lang="fr">Guerre mondiale 1914-1918 -- Déportation de Belgique</skos:prefLabel>
+    <skos:prefLabel xml:lang="sr">Prvi svetski rat, 1914-1918 -- Deportacije iz Belgije</skos:prefLabel>
+    <dcterms:title xml:lang="en">World War, 1914-1918 -- Deportations from Belgium</dcterms:title>
+    <skos:notation>2942</skos:notation>
+    <skos:prefLabel xml:lang="da">1. Verdenskrig, 1914-1918 -- Deportationer fra Belgien</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Erster Weltkrieg, 1914-1918 -- Deportation aus Belgien</skos:prefLabel>
+    <skos:exactMatch rdf:resource="http://id.loc.gov/authorities/subjects/sh2009008261"/>
+    <skos:inScheme rdf:resource="http://data.europeana.eu/concept/loc"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">World War, 1914-1918 -- Deportations from Belgium</skos:prefLabel>
+    <skos:prefLabel xml:lang="nl">Wereldoorlog, 1914-1918 --  Deportatie uit België</skos:prefLabel>
+    <skos:prefLabel xml:lang="it">Guerra mondiale 1914-1918 -- Deportazione -  Belgio</skos:prefLabel>
+  </rdf:Description>
+</rdf:RDF>

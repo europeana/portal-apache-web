@@ -1,0 +1,21 @@
+<rdf:RDF
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#" > 
+  <rdf:Description rdf:about="http://data.europeana.eu/concept/soundgenres/Music/Traditional_and_folk_music">
+    <skos:inScheme rdf:resource="http://data.europeana.eu/concept/soundgenres"/>
+    <skos:prefLabel xml:lang="de">Traditionelle und Volksmusik</skos:prefLabel>
+    <skos:note xml:lang="en">Traditional and folk music for voices and/or instruments.</skos:note>
+    <dcterms:dateSubmitted>2014-12-03T11:15:03Z</dcterms:dateSubmitted>
+    <skos:prefLabel xml:lang="pl">Muzyki tradycyjnej i ludowej</skos:prefLabel>
+    <skos:broader rdf:resource="http://data.europeana.eu/concept/soundgenres/Music"/>
+    <skos:notation>4361</skos:notation>
+    <skos:prefLabel xml:lang="fr">Musique traditionnelle et folklorique</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:modified>2016-01-13T12:27:22Z</dcterms:modified>
+    <skos:prefLabel xml:lang="en">Traditional and folk music</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">Música tradicional y popular</skos:prefLabel>
+    <skos:prefLabel xml:lang="it">Musica tradizionale e folk</skos:prefLabel>
+  </rdf:Description>
+</rdf:RDF>

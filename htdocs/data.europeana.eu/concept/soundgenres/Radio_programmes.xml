@@ -1,0 +1,22 @@
+<rdf:RDF
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#" > 
+  <rdf:Description rdf:about="http://data.europeana.eu/concept/soundgenres/Radio_programmes">
+    <skos:prefLabel xml:lang="it">Programmi radiofonici</skos:prefLabel>
+    <skos:nearMatch rdf:resource="http://rdf.freebase.com/ns/m.0wbmw8l"/>
+    <skos:inScheme rdf:resource="http://data.europeana.eu/concept/soundgenres"/>
+    <skos:note xml:lang="en">Recordings made for radio broadcast.</skos:note>
+    <skos:prefLabel xml:lang="pl">Programy radiowe</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="es">Programas de radio</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Radiosendungen</skos:prefLabel>
+    <skos:notation>4369</skos:notation>
+    <skos:prefLabel xml:lang="fr">Émissions de radio</skos:prefLabel>
+    <skos:exactMatch rdf:resource="http://id.worldcat.org/fast/1726254"/>
+    <skos:prefLabel xml:lang="en">Radio programmes</skos:prefLabel>
+    <skos:nearMatch rdf:resource="http://dbpedia.org/page/Radio_program"/>
+    <skos:exactMatch rdf:resource="http://id.loc.gov/authorities/genreForms/gf2011026506"/>
+  </rdf:Description>
+</rdf:RDF>

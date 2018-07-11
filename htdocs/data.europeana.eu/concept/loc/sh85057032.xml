@@ -1,0 +1,20 @@
+<rdf:RDF
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#" > 
+  <rdf:Description rdf:about="http://data.europeana.eu/concept/loc/sh85057032">
+    <skos:notation>2932</skos:notation>
+    <skos:prefLabel xml:lang="nl">Grieks-Turkse Oorlog, 1921-1922</skos:prefLabel>
+    <skos:exactMatch rdf:resource="http://id.loc.gov/authorities/subjects/sh85057032"/>
+    <skos:prefLabel xml:lang="fr">Guerre Gréco Turque, 1921-1922</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Griechisch-Türkischer Krieg, 1921-1922</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://data.europeana.eu/concept/loc"/>
+    <skos:prefLabel xml:lang="en">Greco-Turkish War, 1921-1922</skos:prefLabel>
+    <skos:prefLabel xml:lang="it">Guerra greco-turca, 1919-1922</skos:prefLabel>
+    <skos:prefLabel xml:lang="sr">Grčko-turski rat, 1921-1922</skos:prefLabel>
+    <skos:prefLabel xml:lang="da">Græsk-tyrkiske krig, 1921-1922</skos:prefLabel>
+    <dcterms:title xml:lang="en">Greco-Turkish War, 1921-1922</dcterms:title>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+</rdf:RDF>

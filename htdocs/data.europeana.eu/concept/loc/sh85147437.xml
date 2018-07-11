@@ -1,0 +1,21 @@
+<rdf:RDF
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#" > 
+  <rdf:Description rdf:about="http://data.europeana.eu/concept/loc/sh85147437">
+    <skos:prefLabel xml:lang="da">Kvinder og krig</skos:prefLabel>
+    <skos:prefLabel xml:lang="nl">Vrouwen en oorlog</skos:prefLabel>
+    <skos:notation>2948</skos:notation>
+    <skos:inScheme rdf:resource="http://data.europeana.eu/concept/loc"/>
+    <skos:prefLabel xml:lang="en">Women and war</skos:prefLabel>
+    <skos:prefLabel xml:lang="sr">Žene i rat</skos:prefLabel>
+    <skos:exactMatch rdf:resource="http://id.loc.gov/authorities/subjects/sh85147437"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="it">Guerra mondiale 1914-1918 -- Ruolo delle Donne</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Guerre mondiale (1914-1918) 
+-- Femmes</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Frauen und Krieg</skos:prefLabel>
+    <dcterms:title xml:lang="en">Women and war</dcterms:title>
+  </rdf:Description>
+</rdf:RDF>

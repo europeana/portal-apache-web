@@ -1,0 +1,27 @@
+<rdf:RDF
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#" > 
+  <rdf:Description rdf:about="http://data.europeana.eu/concept/soundgenres/Music">
+    <skos:nearMatch rdf:resource="http://dbpedia.org/resource/Music"/>
+    <skos:prefLabel xml:lang="de">Musik</skos:prefLabel>
+    <skos:narrower rdf:resource="http://data.europeana.eu/concept/soundgenres/Music/Jazz"/>
+    <skos:prefLabel xml:lang="fr">Musique</skos:prefLabel>
+    <skos:prefLabel xml:lang="pl">Muzyka</skos:prefLabel>
+    <skos:notation>4356</skos:notation>
+    <skos:narrower rdf:resource="http://data.europeana.eu/concept/soundgenres/Music/Western_classical_music"/>
+    <skos:narrower rdf:resource="http://data.europeana.eu/concept/soundgenres/Music/Non-western_classical_music"/>
+    <skos:narrower rdf:resource="http://data.europeana.eu/concept/soundgenres/Music/Popular_music"/>
+    <skos:inScheme rdf:resource="http://data.europeana.eu/concept/soundgenres"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:narrower rdf:resource="http://data.europeana.eu/concept/soundgenres/Music/Traditional_and_folk_music"/>
+    <skos:prefLabel xml:lang="en">Music</skos:prefLabel>
+    <skos:nearMatch rdf:resource="http://id.loc.gov/authorities/subjects/sh99001945"/>
+    <skos:note xml:lang="en">All types of music.</skos:note>
+    <skos:prefLabel xml:lang="es">Música</skos:prefLabel>
+    <skos:nearMatch rdf:resource="http://rdf.freebase.com/ns/m.04rlf"/>
+    <skos:exactMatch rdf:resource="http://id.worldcat.org/fast/1423855"/>
+    <skos:prefLabel xml:lang="it">Musica</skos:prefLabel>
+  </rdf:Description>
+</rdf:RDF>
