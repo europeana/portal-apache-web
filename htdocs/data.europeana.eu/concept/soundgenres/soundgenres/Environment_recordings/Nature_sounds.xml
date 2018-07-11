@@ -1,0 +1,23 @@
+<rdf:RDF
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#" > 
+  <rdf:Description rdf:about="http://data.europeana.eu/concept/soundgenres/soundgenres/Environment_recordings/Nature_sounds">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:notation>4367</skos:notation>
+    <skos:prefLabel xml:lang="de">Naturgeräusche</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Nature sounds</skos:prefLabel>
+    <skos:nearMatch rdf:resource="http://rdf.freebase.com/ns/m.059j3w"/>
+    <skos:note xml:lang="en">Sounds of nature, including animal and plant sounds and the sounds of the wind, rain, oceans, streams, etc. For ambient sounds see Soundscapes.</skos:note>
+    <skos:nearMatch rdf:resource="http://dbpedia.org/page/Natural_sounds"/>
+    <skos:prefLabel xml:lang="es">Sonidos de la naturaleza</skos:prefLabel>
+    <skos:prefLabel xml:lang="pl">Dźwięki przyrody</skos:prefLabel>
+    <skos:prefLabel xml:lang="it">Suoni della natura</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://data.europeana.eu/concept/soundgenres"/>
+    <skos:exactMatch rdf:resource="http://id.worldcat.org/fast/1910814"/>
+    <skos:exactMatch rdf:resource="http://id.loc.gov/authorities/genreForms/gf2013025016"/>
+    <skos:broader rdf:resource="http://data.europeana.eu/concept/soundgenres/Environment_recordings"/>
+    <skos:prefLabel xml:lang="fr">Sons de la nature</skos:prefLabel>
+  </rdf:Description>
+</rdf:RDF>

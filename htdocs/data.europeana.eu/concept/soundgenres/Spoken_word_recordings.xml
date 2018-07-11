@@ -1,0 +1,21 @@
+<rdf:RDF
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#" > 
+  <rdf:Description rdf:about="http://data.europeana.eu/concept/soundgenres/Spoken_word_recordings">
+    <skos:narrower rdf:resource="http://data.europeana.eu/concept/soundgenres/Spoken_word_recordings/Oral_histories"/>
+    <skos:narrower rdf:resource="http://data.europeana.eu/concept/soundgenres/Spoken_word_recordings/Language_and_dialect_recordings"/>
+    <skos:prefLabel xml:lang="pl">Nagranie mowy</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">Grabaciones sonoras de palabras habladas</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Tonaufnahmen von gesprochene Sprache</skos:prefLabel>
+    <skos:prefLabel xml:lang="it">Registrazioni di parole parlate</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:notation>4362</skos:notation>
+    <skos:prefLabel xml:lang="en">Spoken word recordings</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Enregistrements sonores des mots parlés</skos:prefLabel>
+    <skos:narrower rdf:resource="http://data.europeana.eu/concept/soundgenres/Spoken_word_recordings/Spoken_word_performance_recordings"/>
+    <skos:note xml:lang="en">Recordings of spoken words.</skos:note>
+    <skos:inScheme rdf:resource="http://data.europeana.eu/concept/soundgenres"/>
+  </rdf:Description>
+</rdf:RDF>

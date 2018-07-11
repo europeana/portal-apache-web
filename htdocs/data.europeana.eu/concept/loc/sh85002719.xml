@@ -1,0 +1,20 @@
+<rdf:RDF
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#" > 
+  <rdf:Description rdf:about="http://data.europeana.eu/concept/loc/sh85002719">
+    <skos:inScheme rdf:resource="http://data.europeana.eu/concept/loc"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Air warfare</skos:prefLabel>
+    <skos:notation>2766</skos:notation>
+    <dcterms:title xml:lang="en">Air warfare</dcterms:title>
+    <skos:prefLabel xml:lang="it">Guerra aerea</skos:prefLabel>
+    <skos:exactMatch rdf:resource="http://id.loc.gov/authorities/subjects/sh85002719"/>
+    <skos:prefLabel xml:lang="nl">Luchtoorlog</skos:prefLabel>
+    <skos:prefLabel xml:lang="da">Luftkrig</skos:prefLabel>
+    <skos:prefLabel xml:lang="sr">Vazdušni rat</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Luftkrieg</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Guerre aérienne</skos:prefLabel>
+  </rdf:Description>
+</rdf:RDF>

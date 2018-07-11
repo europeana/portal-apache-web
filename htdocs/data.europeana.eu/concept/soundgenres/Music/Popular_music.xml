@@ -1,0 +1,23 @@
+<rdf:RDF
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#" > 
+  <rdf:Description rdf:about="http://data.europeana.eu/concept/soundgenres/Music/Popular_music">
+    <skos:nearMatch rdf:resource="http://id.loc.gov/authorities/subjects/sh85088865"/>
+    <skos:prefLabel xml:lang="es">Música popular</skos:prefLabel>
+    <skos:note xml:lang="en">Music of all eras and from all cultures that appeals to popular taste, for voices and/or instruments, including all popular genres such as Pop, Rock, etc.</skos:note>
+    <skos:prefLabel xml:lang="de">Populären musik</skos:prefLabel>
+    <skos:notation>4359</skos:notation>
+    <skos:nearMatch rdf:resource="http://rdf.freebase.com/ns/m.05r9t"/>
+    <skos:prefLabel xml:lang="pl">Muzyka popularna</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://data.europeana.eu/concept/soundgenres"/>
+    <skos:nearMatch rdf:resource="http://dbpedia.org/resource/Popular_music"/>
+    <skos:exactMatch rdf:resource="http://id.worldcat.org/fast/1726706"/>
+    <skos:prefLabel xml:lang="en">Popular music</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="fr">Musique populaire</skos:prefLabel>
+    <skos:broader rdf:resource="http://data.europeana.eu/concept/soundgenres/Music"/>
+    <skos:prefLabel xml:lang="it">Musica popolare</skos:prefLabel>
+  </rdf:Description>
+</rdf:RDF>

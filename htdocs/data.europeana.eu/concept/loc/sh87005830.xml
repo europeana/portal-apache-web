@@ -1,0 +1,20 @@
+<rdf:RDF
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#" > 
+  <rdf:Description rdf:about="http://data.europeana.eu/concept/loc/sh87005830">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="de">Erster Weltkrieg, 1914-1918 -- Kriegsarbeit</skos:prefLabel>
+    <skos:prefLabel xml:lang="sr">Prvi svetski rat, 1914-1918 -- Ratni posao</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Guerre mondiale 1914-1918 -- Travail de guerre</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://data.europeana.eu/concept/loc"/>
+    <skos:prefLabel xml:lang="en">World War, 1914-1918 -- War work</skos:prefLabel>
+    <skos:prefLabel xml:lang="da">Verdenskrig, 1914-1918 -- Krigsarbejde</skos:prefLabel>
+    <skos:prefLabel xml:lang="it">Guerra mondiale 1914-1918</skos:prefLabel>
+    <skos:notation>2951</skos:notation>
+    <dcterms:title xml:lang="en">World War, 1914-1918 -- War work</dcterms:title>
+    <skos:exactMatch rdf:resource="http://id.loc.gov/authorities/subjects/sh87005830"/>
+    <skos:prefLabel xml:lang="nl">Wereldoorlog, 1914-1918 --  Arbeid</skos:prefLabel>
+  </rdf:Description>
+</rdf:RDF>
