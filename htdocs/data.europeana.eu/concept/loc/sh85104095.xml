@@ -1,0 +1,20 @@
+<rdf:RDF
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#" > 
+  <rdf:Description rdf:about="http://data.europeana.eu/concept/loc/sh85104095">
+    <skos:prefLabel xml:lang="fr">Pologne -- Histoire -- Guerre de 1918-1920</skos:prefLabel>
+    <skos:prefLabel xml:lang="sr">Poljska -- Istorija -- Ratovi 1918-1921</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Poland -- History -- Wars of 1918-1921</skos:prefLabel>
+    <skos:notation>2930</skos:notation>
+    <skos:prefLabel xml:lang="da">Polen - Historie - krigene i 1918-1921</skos:prefLabel>
+    <skos:prefLabel xml:lang="nl">Polen -- Geschiedenis -- Oorlogen, 1918-1921</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://data.europeana.eu/concept/loc"/>
+    <skos:prefLabel xml:lang="it">Guerre -- Polonia - 1918-1921</skos:prefLabel>
+    <skos:exactMatch rdf:resource="http://id.loc.gov/authorities/subjects/sh85104095"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="de">Polen -- Geschichte -- Kriege von 1918-1921</skos:prefLabel>
+    <dcterms:title xml:lang="en">Poland -- History -- Wars of 1918-1921</dcterms:title>
+  </rdf:Description>
+</rdf:RDF>

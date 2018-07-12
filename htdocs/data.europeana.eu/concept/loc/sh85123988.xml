@@ -1,0 +1,20 @@
+<rdf:RDF
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#" > 
+  <rdf:Description rdf:about="http://data.europeana.eu/concept/loc/sh85123988">
+    <skos:exactMatch rdf:resource="http://id.loc.gov/authorities/subjects/sh85123988"/>
+    <skos:prefLabel xml:lang="sr">Socijalni problemi</skos:prefLabel>
+    <skos:prefLabel xml:lang="nl">Sociale problemen</skos:prefLabel>
+    <dcterms:title xml:lang="en">Social problems</dcterms:title>
+    <skos:prefLabel xml:lang="fr">Problèmes sociaux</skos:prefLabel>
+    <skos:prefLabel xml:lang="it">Problemi sociali</skos:prefLabel>
+    <skos:prefLabel xml:lang="da">Sociale problemer</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Soziale Probleme</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Social problems</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://data.europeana.eu/concept/loc"/>
+    <skos:notation>2962</skos:notation>
+  </rdf:Description>
+</rdf:RDF>

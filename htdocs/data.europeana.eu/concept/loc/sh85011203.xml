@@ -1,0 +1,20 @@
+<rdf:RDF
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#" > 
+  <rdf:Description rdf:about="http://data.europeana.eu/concept/loc/sh85011203">
+    <skos:notation>2934</skos:notation>
+    <skos:inScheme rdf:resource="http://data.europeana.eu/concept/loc"/>
+    <skos:prefLabel xml:lang="sr">Balkansko poluostrvo -- Istorija -- Rat 1912-1913 -- Teritorijalna pitanja</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Balkan Peninsula--History--War of 1912-1913--Territorial questions</skos:prefLabel>
+    <skos:prefLabel xml:lang="da">Balkan-halvøen -- Historie -- Krigen i 1912-1913 -- Territoriale spørgsmål</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Balkanhalbinsel -- Geschichte -- Krieg, 1912-1913 -- Territorialfragen</skos:prefLabel>
+    <dcterms:title xml:lang="en">Balkan Peninsula--History--War of 1912-1913--Territorial questions</dcterms:title>
+    <skos:prefLabel xml:lang="it">Guerre balcaniche, 1912-1913</skos:prefLabel>
+    <skos:prefLabel xml:lang="nl">Balkan -- Geschiedenis -- Oorlogen 1912-1913 -- Territoriale kwesties</skos:prefLabel>
+    <skos:exactMatch rdf:resource="http://id.loc.gov/authorities/subjects/sh85011203"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="fr">Péninsule Balkanique -- Histoire -- Guerre de 1912-1913 -- Questions territoriales</skos:prefLabel>
+  </rdf:Description>
+</rdf:RDF>

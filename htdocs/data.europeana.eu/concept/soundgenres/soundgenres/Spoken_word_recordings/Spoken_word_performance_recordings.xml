@@ -1,0 +1,19 @@
+<rdf:RDF
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#" > 
+  <rdf:Description rdf:about="http://data.europeana.eu/concept/soundgenres/soundgenres/Spoken_word_recordings/Spoken_word_performance_recordings">
+    <skos:prefLabel xml:lang="de">Tonaufnahmen von Aufführungen von gesprochenen Worten</skos:prefLabel>
+    <skos:note xml:lang="en">Recordings of spoken word performances, for example readings of poems.</skos:note>
+    <skos:inScheme rdf:resource="http://data.europeana.eu/concept/soundgenres"/>
+    <skos:prefLabel xml:lang="it">Registrazioni sonore di spettacoli di parole parlate</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Enregistrements sonores des performances des mots parlés</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Spoken word performance recordings</skos:prefLabel>
+    <skos:notation>4365</skos:notation>
+    <skos:broader rdf:resource="http://data.europeana.eu/concept/soundgenres/Spoken_word_recordings"/>
+    <skos:prefLabel xml:lang="pl">Nagrania dźwiękowe z występów wypowiadanych słów</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">Grabaciones sonoras de las interpretaciones de las palabras habladas</skos:prefLabel>
+  </rdf:Description>
+</rdf:RDF>

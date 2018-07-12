@@ -1,0 +1,19 @@
+<rdf:RDF
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#" > 
+  <rdf:Description rdf:about="http://data.europeana.eu/concept/loc/sh2009005915">
+    <skos:inScheme rdf:resource="http://data.europeana.eu/concept/loc"/>
+    <dcterms:title xml:lang="en">World War, 1914-1918 -- Atrocities -- Pontus</dcterms:title>
+    <skos:notation>2799</skos:notation>
+    <skos:exactMatch rdf:resource="http://id.loc.gov/authorities/subjects/sh2009005915"/>
+    <skos:prefLabel xml:lang="en">World War, 1914-1918 -- Atrocities -- Pontus</skos:prefLabel>
+    <skos:prefLabel xml:lang="nl">Wereldoorlog, 1914-1918 --  Gruweldaden -- Pontus</skos:prefLabel>
+    <skos:prefLabel xml:lang="it">Guerra mondiale 1914-1918 -- Atrocità --  Turchia centro-orientale</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Erster Weltkrieg, 1914-1918 -- Gräueltaten -- Pontos</skos:prefLabel>
+    <skos:prefLabel xml:lang="sr">Prvi svetski rat, 1914-1918 -- Zločini -- Pont</skos:prefLabel>
+    <skos:prefLabel xml:lang="da">1. Verdenskrig, 1914-1918 - Grusomheder -- Pontus</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+</rdf:RDF>
