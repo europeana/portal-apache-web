@@ -1,3 +1,4 @@
+
 {
   "@context": {
     "dc"       : "http://purl.org/dc/elements/1.1/",
@@ -12,49 +13,67 @@
     "xsd"      : "http://www.w3.org/2001/XMLSchema#",
     "wgs84_pos": "http://www.w3.org/2003/01/geo/wgs84_pos#",
     "as"       : "http://www.w3.org/ns/activitystreams#",
+    "vcard"    : "http://www.w3.org/2006/vcard/ns#",
 
     "id"   : { "@id": "@id"   , "@type": "@id" },
     "type" : { "@id": "@type" , "@type": "@id" },
 
-    "Agent"   : { "@id": "edm:Agent"    },
-    "Concept" : { "@id": "skos:Concept" },
-    "Place"   : { "@id": "edm:Place"    },
-    "TimeSpan": { "@id": "edm:TimeSpan" },
+    "Agent"       : { "@id": "edm:Agent"         },
+    "Concept"     : { "@id": "skos:Concept"      },
+    "Place"       : { "@id": "edm:Place"         },
+    "TimeSpan"    : { "@id": "edm:TimeSpan"      },
+    "Organization": { "@id": "foaf:Organization" },
+    "Address"     : { "@id": "vcard:Address"     },
 
+    "acronym"                : { "@id": "edm:acronym", "@container": "@language" },
     "alt"                    : { "@id": "wgs84_pos:alt" },
     "altLabel"               : { "@id": "skos:altLabel"
                                , "@container": "@language" },
-    "begin"                  : { "@id": "edm:begin", "@language": null },
-    "biographicalInformation": { "@id": "rdaGr2:biographicalInformation" },
+    "begin"                  : { "@id": "edm:begin" },
+    "biographicalInformation": { "@id": "rdaGr2:biographicalInformation"
+                               , "@container": "@language" },
     "broader"                : { "@id": "skos:broader", "@type": "@id" },
     "broadMatch"             : { "@id": "skos:broadMatch", "@type": "@id" },
     "closeMatch"             : { "@id": "skos:closeMatch", "@type": "@id" },
-    "date"                   : { "@id": "dc:date", "@language": null },
-    "dateOfBirth"            : { "@id": "rdaGr2:dateOfBirth", "@language": null },
-    "dateOfDeath"            : { "@id": "rdaGr2:dateOfDeath", "@language": null },
-    "dateOfEstablishment"    : { "@id": "rdaGr2:dateOfEstablishment", "@language": null },
-    "dateOfTermination"      : { "@id": "rdaGr2:dateOfTermination", "@language": null },
-    "end"                    : { "@id": "edm:end", "@language": null },
+    "country"                : { "@id": "edm:country" },
+    "date"                   : { "@id": "dc:date" },
+    "dateOfBirth"            : { "@id": "rdaGr2:dateOfBirth" },
+    "dateOfDeath"            : { "@id": "rdaGr2:dateOfDeath" },
+    "dateOfEstablishment"    : { "@id": "rdaGr2:dateOfEstablishment" },
+    "dateOfTermination"      : { "@id": "rdaGr2:dateOfTermination" },
+    "description"            : { "@id": "dc:description", "@container": "@language" },
+    "depiction"              : { "@id": "foaf:depiction" },
+    "end"                    : { "@id": "edm:end" },
+    "europeanaRole"          : { "@id": "edm:europeanaRole", "@language": "en" },
     "exactMatch"             : { "@id": "skos:exactMatch", "@type": "@id" },
+    "geographicLevel"        : { "@id": "edm:geographicLevel", "@language": "en" },
     "gender"                 : { "@id": "rdaGr2:gender" },
+    "hasAddress"             : { "@id": "vcard:hasAddress", "@type": "@id" },
     "hasMet"                 : { "@id": "edm:hasMet", "@type": "@id" },
     "hasPart"                : { "@id": "dcterms:hasPart", "@type": "@id" },
-    "identifier"             : { "@id": "dc:identifier", "@language": null },
+    "hiddenLabel"            : { "@id": "skos:hiddenLabel", "@container": "@language" },
+    "homepage"               : { "@id": "foaf:homepage", "@type": "@id" },
+    "identifier"             : { "@id": "dc:identifier" },
     "inScheme"               : { "@id": "skos:inScheme", "@type": "@id" },
     "isNextInSequence"       : { "@id": "edm:isNextInSequence", "@type": "@id" },
     "isPartOf"               : { "@id": "dcterms:isPartOf", "@type": "@id" },
     "isRelatedTo"            : { "@id": "edm:isRelatedTo", "@type": "@id"
                                , "@container": "@set" },
-    "lat"                    : { "@id": "wgs84_pos:lat", "@language": null },
-    "long"                   : { "@id": "wgs84_pos:long", "@language": null },
+    "lat"                    : { "@id": "wgs84_pos:lat" },
+    "lat_long"               : { "@id": "wgs84_pos:lat_long" },
+    "long"                   : { "@id": "wgs84_pos:long" },
+    "logo"                   : { "@id": "foaf:logo", "@type": "@id" },
+    "mbox"                   : { "@id": "foaf:mbox" },
     "name"                   : { "@id": "foaf:name"
                                , "@container": "@language" },
     "note"                   : { "@id": "skos:note", "@container": "@language" },
-    "notation"               : { "@id": "skos:notation", "@language": null },
+    "notation"               : { "@id": "skos:notation" },
     "narrower"               : { "@id": "skos:narrower", "@type": "@id" },
     "narrowMatch"            : { "@id": "skos:narrowMatch", "@type": "@id" },
+    "organizationDomain"     : { "@id": "edm:organizationDomain", "@language": "en" },
     "prefLabel"              : { "@id": "skos:prefLabel"
                                , "@container": "@language" },
+    "phone"                  : { "@id": "foaf:phone" },
     "placeOfBirth"           : { "@id": "rdaGr2:placeOfBirth" },
     "placeOfDeath"           : { "@id": "rdaGr2:placeOfDeath" },
     "professionOrOccupation" : { "@id": "rdaGr2:professionOrOccupation"
@@ -63,7 +82,23 @@
     "relatedMatch"           : { "@id": "skos:relatedMatch", "@type": "@id" },
     "sameAs"                 : { "@id": "owl:sameAs", "@type": "@id"
                                , "@container": "@set" },
+    "source"                 : { "@id": "dc:source", "@type": "@id" },
+    "wasPresentAt"           : { "@id": "edm:wasPresentAt", "@type": "@id" },
 
-    "total"                  : "as:totalItems"
+    "countryName"            : { "@id": "vcard:country-name"    },
+    "locality"               : { "@id": "vcard:locality"        },
+    "postalCode"             : { "@id": "vcard:postal-code"     },
+    "postOfficeBox"          : { "@id": "vcard:post-office-box" },
+    "region"                 : { "@id": "vcard:region"          },
+    "streetAddress"          : { "@id": "vcard:street-address"  },
+
+    "ResultList"             : { "@id": "as:OrderedCollection" },
+    "total"                  : { "@id": "as:totalItems", "@type": "xsd:nonNegativeInteger" },
+    "items"                  : { "@id": "as:items" , "@type": "@id", "@container": "@list" },
+    "partOf"                 : { "@id": "as:partOf", "@type": "@id" },
+    "first"                  : { "@id": "as:first" , "@type": "@id" },
+    "last"                   : { "@id": "as:last"  , "@type": "@id" },
+    "next"                   : { "@id": "as:next"  , "@type": "@id" },
+    "prev"                   : { "@id": "as:prev"  , "@type": "@id" }
   }
 }
