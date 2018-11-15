@@ -1,5 +1,8 @@
 {
   "@context": {
+
+    "@version": 1.1,
+
     "cc"       : "https://creativecommons.org/ns#",
     "dc"       : "http://purl.org/dc/elements/1.1/",
     "dcterms"  : "http://purl.org/dc/terms/",
@@ -14,11 +17,12 @@
     "id"   : { "@id": "@id"   , "@type": "@id" },
     "type" : { "@id": "@type" , "@type": "@id" },
 
-    "Aggregation": { "@id": "ore:Aggregation" },
-    "License"    : { "@id": "cc:License"      },
-    "ProvidedCHO": { "@id": "edm:ProvidedCHO" },
-    "Proxy"      : { "@id": "ore:Proxy"       },
-    "WebResource": { "@id": "edm:WebResource" },
+    "Aggregation"         : { "@id": "ore:Aggregation"      },
+    "License"             : { "@id": "cc:License"           },
+    "ProvidedCHO"         : { "@id": "edm:ProvidedCHO"      },
+    "Proxy"               : { "@id": "ore:Proxy"            },
+    "WebResource"         : { "@id": "edm:WebResource"      },
+    "FullTextResource"    : { "@id": "edm:FullTextResource" },
 
     "aggregatedCHO"       : { "@id": "edm:aggregatedCHO"                             , "@type": "@id" },
     "alternative"         : { "@id": "dcterms:alternative"     , "@container": "@language"            },
@@ -81,6 +85,9 @@
     "tableOfContents"     : { "@id": "dcterms:tableOfContents" , "@container": "@set"                 },
     "temporal"            : { "@id": "dcterms:temporal"        , "@container": "@set"                 },
     "title"               : { "@id": "dc:title"                , "@container": "@language"            },
-    "sameAs"              : { "@id": "owl:sameAs"              , "@container": "@set", "@type": "@id" }
+    "sameAs"              : { "@id": "owl:sameAs"              , "@container": "@set", "@type": "@id" },
+
+    "value"               : { "@id": "rdf:value"                                                      },
+    "transcribing"        : { "@id": "edm:transcribing"                                               }
   }
 }
