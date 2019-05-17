@@ -23,7 +23,6 @@
     "Place"       : { "@id": "edm:Place"         },
     "TimeSpan"    : { "@id": "edm:TimeSpan"      },
     "Organization": { "@id": "foaf:Organization" },
-    "Address"     : { "@id": "vcard:Address"     },
 
     "acronym"                : { "@id": "edm:acronym", "@container": "@language" },
     "alt"                    : { "@id": "wgs84_pos:alt" },
@@ -85,12 +84,21 @@
     "source"                 : { "@id": "dc:source", "@type": "@id" },
     "wasPresentAt"           : { "@id": "edm:wasPresentAt", "@type": "@id" },
 
+    "Address"                : { "@id": "vcard:Address"         },
     "countryName"            : { "@id": "vcard:country-name"    },
     "locality"               : { "@id": "vcard:locality"        },
     "postalCode"             : { "@id": "vcard:postal-code"     },
     "postOfficeBox"          : { "@id": "vcard:post-office-box" },
     "region"                 : { "@id": "vcard:region"          },
     "streetAddress"          : { "@id": "vcard:street-address"  },
+    "hasGeo"                 : { "@id": "vcard:hasGeo"          },
+
+    "Aggregation"            : { "@id": "ore:Aggregation"    },
+    "isAggregatedBy"         : { "@id": "ore:isAggregatedBy" },
+    "aggregates"             : { "@id": "ore:aggregates"     },
+    "created"                : { "@id": "dcterms:created" , "@type": "xsd:dateTime" },
+    "modified"               : { "@id": "dcterms:modified", "@type": "xsd:dateTime" },
+
 
     "ResultList"             : { "@id": "as:OrderedCollection" },
     "total"                  : { "@id": "as:totalItems", "@type": "xsd:nonNegativeInteger" },
