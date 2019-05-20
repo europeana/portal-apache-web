@@ -1,4 +1,4 @@
-Sitemap: https://www.europeana.eu/portal/europeana-sitemap-index-hashed.xml
+Sitemap: https://www.europeana.eu/sitemap-record-index.xml
 
 User-agent: *
 Disallow: /api/
@@ -9,3 +9,4 @@ Disallow: /portal/*/search
 Disallow: /portal/*/collections/*?*
 Allow: /portal/record/*
 Allow: /portal/*/record/*
+Allow: /sitemap-*
