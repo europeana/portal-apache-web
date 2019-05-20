@@ -9,4 +9,3 @@ Disallow: /portal/*/search
 Disallow: /portal/*/collections/*?*
 Allow: /portal/record/*
 Allow: /portal/*/record/*
-Allow: /sitemap-*
