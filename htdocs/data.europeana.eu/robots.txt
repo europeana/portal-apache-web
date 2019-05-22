@@ -1,0 +1,5 @@
+Sitemap: https://www.europeana.eu/sitemap-entity-index.xml
+
+User-agent: *
+Allow: /agent/*
+Allow: /concept/*
