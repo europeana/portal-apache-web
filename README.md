@@ -37,8 +37,8 @@ Use environment variables to set the hostnames for each virtual host supported
 by this Apache:
 
 * `WWW_HOST`: www.europeana.eu
-* `1914_1918_HOST`: www.europeana1914-1918.eu
-* `1914_1918_EMBED_HOST`: embed.europeana1914-1918.eu
+* `WWI_HOST`: www.europeana1914-1918.eu
+* `WWI_EMBED_HOST`: embed.europeana1914-1918.eu
 * `ANNOTATIONS_HOST`: annotations.europeana.eu
 * `DATA_HOST`: data.europana.eu
 * `ENTITIES_HOST`: entity.europeana.eu
@@ -56,3 +56,40 @@ to other hosts, determined by the environment variables:
 * `API_HOST`: Europeana REST API
 * `EXHIBITIONS_HOST`: Europeana Virtual Exhibitions
 * `PORTAL_HOST`: Europeana Portal / Collections
+
+## Docker
+
+A Dockerfile is included, optimised for small image size, for publication to a
+Docker repository and use in production environments.
+
+### Configure version
+
+```shell
+export VERSION=20190625
+```
+
+### Build
+
+```shell
+docker build -t europeana/portal-apache:${VERSION} .
+```
+
+### Run
+
+```shell
+docker run \
+       -p 8080:80 \
+       --env-file=.env \
+       europeana/portal-apache:${VERSION}
+```
+
+### Publish
+```shell
+docker push europeana/portal-apache:${VERSION}
+```
+
+## License
+
+Licensed under the EUPL v1.2.
+
+For full details, see [LICENSE.md](LICENSE.md).
