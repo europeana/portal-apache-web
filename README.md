@@ -40,6 +40,7 @@ by this Apache:
 * `WWI_HOST`: www.europeana1914-1918.eu
 * `WWI_EMBED_HOST`: embed.europeana1914-1918.eu
 * `ANNOTATIONS_HOST`: annotations.europeana.eu
+* `BLOG_HOST`: blog.europeana.eu
 * `DATA_HOST`: data.europana.eu
 * `ENTITIES_HOST`: entity.europeana.eu
 * `OLD_EXHIBITIONS_HOST`: exhibitions.europeana.eu
