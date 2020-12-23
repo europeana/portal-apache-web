@@ -57,7 +57,6 @@ to other hosts, determined by the environment variables:
 * `API_HOST`: Europeana REST API
 * `EXHIBITIONS_HOST`: Europeana Virtual Exhibitions
 * `PORTAL_HOST`: Europeana Portal / Collections
-* `PORTAL_BOTS_HOST`: Europeana Portal / Collections (for bot traffic)
 
 ## Docker
 
