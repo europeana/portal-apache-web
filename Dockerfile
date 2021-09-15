@@ -2,7 +2,6 @@ FROM httpd:2.4.39-alpine
 
 COPY ./docker/httpd.conf ./conf/httpd.conf
 COPY ./.bp-config/httpd/extra/httpd-blacklist.conf \
-     ./.bp-config/httpd/extra/httpd-portal-redirect-to-ssl.conf \
      ./.bp-config/httpd/extra/httpd-proxy.conf \
      ./conf/extra/
 COPY ./.bp-config/httpd/vhosts/*.conf ./conf/vhosts/
