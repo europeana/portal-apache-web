@@ -12,9 +12,11 @@ variable `DISALLOW_ROBOTS=1`.
 Use environment variables to set the hostnames for each virtual host supported
 by this Apache:
 
+* `ANNOTATIONS_HOST`: annotations.europeana.eu
 * `DATA_HOST`: data.europana.eu
 * `OLD_EXHIBITIONS_HOST`: exhibitions.europeana.eu
 * `STYLEGUIDE_HOST`: style.europeana.eu
+* `WWI_EMBED_HOST`: embed.europeana1914-1918.eu
 * `WWI_HOST`: www.europeana1914-1918.eu
 * `WWW_HOST`: www.europeana.eu
 
@@ -31,7 +33,7 @@ to other hosts, determined by the environment variables:
 * `ANNOTATIONS_HOST`: Annotation API
 * `ENTITIES_HOST`: Entity API
 * `FULLTEXT_HOST`: Full text API
-* `PORTAL_HOST`: Europeana Collections Portal
+* `PORTAL_PROXY_URL`: Europeana Collections Portal (**full URL**)
 * `THUMBNAIL_HOST`: Thumbnail API
 * `SITEMAP_HOST`: Sitemap API
 
