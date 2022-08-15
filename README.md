@@ -51,7 +51,7 @@ Redirects for legacy Exhibitions site.
 
 ### style.europeana.eu
 
-Reverse proxying to static Pattern Lab styleguide on S3.
+Serving static style assets.
 
 ### www.europeana1914-1918.eu
 
