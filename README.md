@@ -17,7 +17,6 @@ by this Apache:
 * `OLD_EXHIBITIONS_HOST`: exhibitions.europeana.eu
 * `STYLEGUIDE_HOST`: style.europeana.eu
 * `WWI_EMBED_HOST`: embed.europeana1914-1918.eu
-* `WWI_HOST`: www.europeana1914-1918.eu
 * `WWW_HOST`: www.europeana.eu
 
 The above are the expected production values for these hosts, which still need
