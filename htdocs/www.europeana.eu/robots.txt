@@ -1,9 +1,0 @@
-Sitemap: https://www.europeana.eu/sitemap-record-index.xml
-Sitemap: https://www.europeana.eu/sitemap-entity-index.xml
-
-User-agent: *
-Disallow: /*/search
-Disallow: /*/collections/*?*
-Allow: /*/item/*
-Disallow: /*/item/*?*
-Disallow: /api/
